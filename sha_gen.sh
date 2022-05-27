@@ -13,7 +13,6 @@ recordIdx=()
 counter=0
 
 coproc java Main.Prover 
-#n=0
 
 for b in {2..10}
 do 
@@ -29,7 +28,6 @@ do
 		for i in "${recordIdx[@]}";
 		do
 			echo "eval pp${a}_${b}_checkS${i} \"An (S${i}[n]=S${i}[n+${a}]|S${i}[n]=S${i}[n+${b}])\":\r" >&"${COPROC[1]}"
-# 			cat <&${COPROC[0]} 
 
 			1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt" 
 			while [ $? -eq 1 ]
@@ -75,14 +73,6 @@ EOF
 			recordIdx+=("$counter")
 			(( counter++ ))
 		fi
-		
-#		echo "n = ${n}"
-#		let n++
-#		if (( n > 10 )); then
-#			kill $COPROC_PID
-#			coproc java Main.Prover
-#			n=0
-#		fi
 	done
 done
 echo 'exit;' >&"${COPROC[1]}"

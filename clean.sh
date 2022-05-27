@@ -1,5 +1,7 @@
 #!/opt/homebrew/bin/bash
 
+#!/bin/bash
+
 
 rm -f ./genOut/*.*
 rm -f ../Result/pp*_*_checkS*.*

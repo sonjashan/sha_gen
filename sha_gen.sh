@@ -1,5 +1,6 @@
 #!/opt/homebrew/bin/bash
 
+#!/bin/bash
 
 rm -f ./genOut/*.*
 rm -f ../Result/pp*_*_checkS*.*
@@ -8,6 +9,9 @@ rm -f ../Result/S*.*
 rm -f ../Result/sha*.*
 rm -f waitforjava.txt
 rm -f ochem_gen_failed.txt
+rm og_gen
+
+gcc -O3 -o og_gen og_gen.c
 
 recordIdx=()
 counter=0
@@ -28,7 +32,8 @@ do
 		for i in "${recordIdx[@]}";
 		do
 			echo "eval pp${a}_${b}_checkS${i} \"An (S${i}[n]=S${i}[n+${a}]|S${i}[n]=S${i}[n+${b}])\":\r" >&"${COPROC[1]}"
-			cat <&"${COPROC[0]}"
+#			cat <<EOF <&"${COPROC[0]}"
+#EOF
 
 			1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt"
 			while [ $? -eq 1 ]

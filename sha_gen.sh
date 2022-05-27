@@ -14,7 +14,7 @@ counter=0
 
 coproc java Main.Prover
 
-for b in {2..100}
+for b in {2..500}
 do
 	for (( a=1; a<b; a++ ))
 	do

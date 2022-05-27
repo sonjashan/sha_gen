@@ -10,3 +10,4 @@ rm -f ../Result/S*.*
 rm -f ../Result/sha*.*
 rm -f waitforjava.txt
 rm -f ochem_gen_failed.txt
+rm og_gen

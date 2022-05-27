@@ -13,9 +13,9 @@ recordIdx=()
 counter=0
 
 coproc java Main.Prover 
-n=0				
+#n=0
 
-for b in {2..600}
+for b in {2..10}
 do 
 	for (( a=1; a<b; a++ ))
 	do
@@ -26,9 +26,9 @@ do
 		echo "a,b = $a, $b"
 		
 		found=0		
-		for i in ${recordIdx[@]}; 
+		for i in "${recordIdx[@]}";
 		do
-			echo "eval pp${a}_${b}_checkS${i} \"An (S${i}[n]=S${i}[n+${a}]|S${i}[n]=S${i}[n+${b}])\":\r" >&${COPROC[1]}
+			echo "eval pp${a}_${b}_checkS${i} \"An (S${i}[n]=S${i}[n+${a}]|S${i}[n]=S${i}[n+${b}])\":\r" >&"${COPROC[1]}"
 # 			cat <&${COPROC[0]} 
 
 			1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt" 
@@ -50,10 +50,10 @@ do
 		if (( found == 0 ))
 		then
 			echo "running a=${a}, b=${b}" >> ./genOut/genlog.txt
-			./og_gen ${a} ${b} 3 1 1 ${counter} >> ./genOut/genlog.txt
+			./og_gen "${a}" "${b}" 3 1 1 ${counter} >> ./genOut/genlog.txt
 			chmod -R 755 ./genOut
 
-			less ./genOut/${a}_${b}_311_S${counter}.txt << EOF >&${COPROC[1]}
+			less ./genOut/"${a}"_"${b}"_311_S${counter}.txt << EOF >&"${COPROC[1]}"
 EOF
 
 			1>>waitforjava.txt 2>&1 cat "../Result/cubeplusfree_S${counter}.txt"
@@ -73,19 +73,19 @@ EOF
 				echo "see ${a}_${b}_311_S${counter}.txt in genOut"
 			fi			
 			recordIdx+=("$counter")
-			let counter++
+			(( counter++ ))
 		fi
 		
-		echo "n = ${n}"
-		let n++
-		if (( n > 10 )); then 
-			kill $COPROC_PID
-			coproc java Main.Prover
-			n=0
-		fi
+#		echo "n = ${n}"
+#		let n++
+#		if (( n > 10 )); then
+#			kill $COPROC_PID
+#			coproc java Main.Prover
+#			n=0
+#		fi
 	done
 done
-echo 'exit;' >&${COPROC[1]}
+echo 'exit;' >&"${COPROC[1]}"
 
 
 

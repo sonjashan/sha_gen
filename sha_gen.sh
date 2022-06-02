@@ -9,6 +9,7 @@ rm -f ../Result/S*.*
 rm -f ../Result/sha*.*
 rm -f ochem_gen_failed.txt
 rm -f og_gen
+rm -f pseudoCheckFailedRecord.txt
 
 gcc -O3 -o og_gen og_gen.c
 mkdir genOut
@@ -42,6 +43,9 @@ do
 				echo "see pp${a}_${b}_checkS${i}.txt in Results"
 				found=1
 				break
+			else
+			  rm ../Result/pp${a}_${b}_checkS${i}*
+				echo "pp${a}_${b}_checkS${i} returned false - files deleted" >> pseudoCheckFailedRecord.txt
 			fi
 		done
 

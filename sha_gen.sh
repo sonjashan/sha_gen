@@ -7,7 +7,6 @@ rm -f ../Result/pp*_*_checkS*.*
 rm -f ../Result/cubeplusfree_S*.*
 rm -f ../Result/S*.*
 rm -f ../Result/sha*.*
-#rm -f waitforjava.txt
 rm -f ochem_gen_failed.txt
 rm -f og_gen
 
@@ -36,12 +35,6 @@ do
       echo 'exit;' >&"${COPROC[1]}"
       wait "$COPROC_PID"
 
-#			1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt"
-#			while [ $? -eq 1 ]
-#			do
-#				1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt"
-#			done
-
 			ppCheck=$(<"../Result/pp${a}_${b}_checkS${i}.txt")
 
 			if [ "${ppCheck}" == "true" ]
@@ -59,16 +52,8 @@ do
 			chmod -R 755 ./genOut
 
       coproc java Main.Prover ../bin/genOut/"${a}"_"${b}"_311_S${counter}.txt
-#			less ./genOut/"${a}"_"${b}"_311_S${counter}.txt << EOF >&"${COPROC[1]}"
-#EOF
       echo 'exit;' >&"${COPROC[1]}"
       wait "$COPROC_PID"
-
-#			1>>waitforjava.txt 2>&1 cat "../Result/cubeplusfree_S${counter}.txt"
-#			while [ $? -eq 1 ]
-#			do
-#				1>>waitforjava.txt 2>&1 cat "../Result/cubeplusfree_S${counter}.txt"
-#			done
 
 			ppNewSeqCheck=$(<"../Result/pp${a}_${b}_checkS${counter}.txt")
 			cfNewSeqCheck=$(<"../Result/cubeplusfree_S${counter}.txt")

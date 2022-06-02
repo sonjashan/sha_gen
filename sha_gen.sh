@@ -7,7 +7,7 @@ rm -f ../Result/pp*_*_checkS*.*
 rm -f ../Result/cubeplusfree_S*.*
 rm -f ../Result/S*.*
 rm -f ../Result/sha*.*
-rm -f waitforjava.txt
+#rm -f waitforjava.txt
 rm -f ochem_gen_failed.txt
 rm -f og_gen
 
@@ -17,7 +17,6 @@ mkdir genOut
 recordIdx=()
 counter=0
 
-coproc java Main.Prover
 
 for b in {2..500}
 do
@@ -32,15 +31,16 @@ do
 		found=0
 		for i in "${recordIdx[@]}";
 		do
+      coproc java Main.Prover
 			echo "eval pp${a}_${b}_checkS${i} \"An (S${i}[n]=S${i}[n+${a}]|S${i}[n]=S${i}[n+${b}])\":\r" >&"${COPROC[1]}"
-#			cat <<EOF <&"${COPROC[0]}"
-#EOF
+      echo 'exit;' >&"${COPROC[1]}"
+      wait "$COPROC_PID"
 
-			1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt"
-			while [ $? -eq 1 ]
-			do
-				1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt"
-			done
+#			1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt"
+#			while [ $? -eq 1 ]
+#			do
+#				1>>waitforjava.txt 2>&1 cat "../Result/pp${a}_${b}_checkS${i}.txt"
+#			done
 
 			ppCheck=$(<"../Result/pp${a}_${b}_checkS${i}.txt")
 
@@ -58,14 +58,17 @@ do
 			./og_gen "${a}" "${b}" 3 1 1 ${counter} >> ./genOut/genlog.txt
 			chmod -R 755 ./genOut
 
-			less ./genOut/"${a}"_"${b}"_311_S${counter}.txt << EOF >&"${COPROC[1]}"
-EOF
+      coproc java Main.Prover ../bin/genOut/"${a}"_"${b}"_311_S${counter}.txt
+#			less ./genOut/"${a}"_"${b}"_311_S${counter}.txt << EOF >&"${COPROC[1]}"
+#EOF
+      echo 'exit;' >&"${COPROC[1]}"
+      wait "$COPROC_PID"
 
-			1>>waitforjava.txt 2>&1 cat "../Result/cubeplusfree_S${counter}.txt"
-			while [ $? -eq 1 ]
-			do
-				1>>waitforjava.txt 2>&1 cat "../Result/cubeplusfree_S${counter}.txt"
-			done
+#			1>>waitforjava.txt 2>&1 cat "../Result/cubeplusfree_S${counter}.txt"
+#			while [ $? -eq 1 ]
+#			do
+#				1>>waitforjava.txt 2>&1 cat "../Result/cubeplusfree_S${counter}.txt"
+#			done
 
 			ppNewSeqCheck=$(<"../Result/pp${a}_${b}_checkS${counter}.txt")
 			cfNewSeqCheck=$(<"../Result/cubeplusfree_S${counter}.txt")
@@ -82,6 +85,5 @@ EOF
 		fi
 	done
 done
-echo 'exit;' >&"${COPROC[1]}"
 
 

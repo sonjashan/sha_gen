@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S1[(i+j)]=S1[((i+j)+n)]:168 states - 66ms
+   (j<=(2*n)=>S1[(i+j)]=S1[((i+j)+n)]):505 states - 13ms
+    (A j (j<=(2*n)=>S1[(i+j)]=S1[((i+j)+n)])):1 states - 725ms
+     (n>0&(A j (j<=(2*n)=>S1[(i+j)]=S1[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S1[(i+j)]=S1[((i+j)+n)])))):1 states - 0ms
+Total computation time: 805ms.

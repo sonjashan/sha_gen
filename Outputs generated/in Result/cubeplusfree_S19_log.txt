@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S19[(i+j)]=S19[((i+j)+n)]:2024 states - 754ms
+   (j<=(2*n)=>S19[(i+j)]=S19[((i+j)+n)]):6073 states - 136ms
+    (A j (j<=(2*n)=>S19[(i+j)]=S19[((i+j)+n)])):1 states - 11895ms
+     (n>0&(A j (j<=(2*n)=>S19[(i+j)]=S19[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S19[(i+j)]=S19[((i+j)+n)])))):1 states - 0ms
+Total computation time: 12787ms.

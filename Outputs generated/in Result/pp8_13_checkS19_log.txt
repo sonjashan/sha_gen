@@ -1,0 +1,5 @@
+S19[n]=S19[(n+8)]:42 states - 19ms
+ S19[n]=S19[(n+13)]:44 states - 19ms
+  (S19[n]=S19[(n+8)]|S19[n]=S19[(n+13)]):1 states - 0ms
+   (A n (S19[n]=S19[(n+8)]|S19[n]=S19[(n+13)])):1 states - 1ms
+Total computation time: 41ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S40[(i+j)]=S40[((i+j)+n)]:1680 states - 609ms
+   (j<=(2*n)=>S40[(i+j)]=S40[((i+j)+n)]):5041 states - 127ms
+    (A j (j<=(2*n)=>S40[(i+j)]=S40[((i+j)+n)])):1 states - 10341ms
+     (n>0&(A j (j<=(2*n)=>S40[(i+j)]=S40[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S40[(i+j)]=S40[((i+j)+n)])))):1 states - 1ms
+Total computation time: 11080ms.

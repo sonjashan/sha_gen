@@ -1,0 +1,5 @@
+S39[n]=S39[(n+39)]:64 states - 56ms
+ S39[n]=S39[(n+47)]:68 states - 31ms
+  (S39[n]=S39[(n+39)]|S39[n]=S39[(n+47)]):1 states - 1ms
+   (A n (S39[n]=S39[(n+39)]|S39[n]=S39[(n+47)])):1 states - 3ms
+Total computation time: 164ms.

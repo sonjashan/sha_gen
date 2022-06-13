@@ -1,0 +1,5 @@
+S27[n]=S27[(n+26)]:31 states - 26ms
+ S27[n]=S27[(n+33)]:38 states - 17ms
+  (S27[n]=S27[(n+26)]|S27[n]=S27[(n+33)]):1 states - 1ms
+   (A n (S27[n]=S27[(n+26)]|S27[n]=S27[(n+33)])):1 states - 4ms
+Total computation time: 135ms.

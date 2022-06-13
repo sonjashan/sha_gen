@@ -1,0 +1,4 @@
+morphism sha2 "0->11000 1->11100":
+image S2 sha2 T:
+eval pp1_4_checkS2 "An (S2[n]=S2[n+1]|S2[n]=S2[n+4])":
+eval cubeplusfree_S2 "Ei,n n>0 & Aj (j<=2*n) => S2[i+j] = S2[i+j+n]":

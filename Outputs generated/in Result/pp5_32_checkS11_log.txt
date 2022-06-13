@@ -1,0 +1,5 @@
+S11[n]=S11[(n+5)]:29 states - 35ms
+ S11[n]=S11[(n+32)]:40 states - 26ms
+  (S11[n]=S11[(n+5)]|S11[n]=S11[(n+32)]):1 states - 1ms
+   (A n (S11[n]=S11[(n+5)]|S11[n]=S11[(n+32)])):1 states - 4ms
+Total computation time: 139ms.

@@ -1,0 +1,5 @@
+S62[n]=S62[(n+2)]:20 states - 16ms
+ S62[n]=S62[(n+46)]:38 states - 16ms
+  (S62[n]=S62[(n+2)]|S62[n]=S62[(n+46)]):1 states - 0ms
+   (A n (S62[n]=S62[(n+2)]|S62[n]=S62[(n+46)])):1 states - 0ms
+Total computation time: 34ms.

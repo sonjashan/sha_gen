@@ -1,0 +1,5 @@
+S28[n]=S28[(n+1)]:42 states - 54ms
+ S28[n]=S28[(n+50)]:64 states - 44ms
+  (S28[n]=S28[(n+1)]|S28[n]=S28[(n+50)]):1 states - 2ms
+   (A n (S28[n]=S28[(n+1)]|S28[n]=S28[(n+50)])):1 states - 5ms
+Total computation time: 171ms.

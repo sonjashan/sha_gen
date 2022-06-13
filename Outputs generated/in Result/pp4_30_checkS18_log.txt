@@ -1,0 +1,5 @@
+S18[n]=S18[(n+4)]:11 states - 22ms
+ S18[n]=S18[(n+30)]:20 states - 13ms
+  (S18[n]=S18[(n+4)]|S18[n]=S18[(n+30)]):1 states - 2ms
+   (A n (S18[n]=S18[(n+4)]|S18[n]=S18[(n+30)])):1 states - 3ms
+Total computation time: 121ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S15[(i+j)]=S15[((i+j)+n)]:1368 states - 557ms
+   (j<=(2*n)=>S15[(i+j)]=S15[((i+j)+n)]):4105 states - 82ms
+    (A j (j<=(2*n)=>S15[(i+j)]=S15[((i+j)+n)])):1 states - 7670ms
+     (n>0&(A j (j<=(2*n)=>S15[(i+j)]=S15[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S15[(i+j)]=S15[((i+j)+n)])))):1 states - 1ms
+Total computation time: 8313ms.

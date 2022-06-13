@@ -1,0 +1,5 @@
+S54[n]=S54[(n+16)]:40 states - 16ms
+ S54[n]=S54[(n+37)]:42 states - 19ms
+  (S54[n]=S54[(n+16)]|S54[n]=S54[(n+37)]):1 states - 0ms
+   (A n (S54[n]=S54[(n+16)]|S54[n]=S54[(n+37)])):1 states - 1ms
+Total computation time: 40ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S37[(i+j)]=S37[((i+j)+n)]:856 states - 257ms
+   (j<=(2*n)=>S37[(i+j)]=S37[((i+j)+n)]):2153 states - 49ms
+    (A j (j<=(2*n)=>S37[(i+j)]=S37[((i+j)+n)])):1 states - 4078ms
+     (n>0&(A j (j<=(2*n)=>S37[(i+j)]=S37[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S37[(i+j)]=S37[((i+j)+n)])))):1 states - 1ms
+Total computation time: 4387ms.

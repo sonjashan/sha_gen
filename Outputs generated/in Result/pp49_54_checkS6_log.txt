@@ -1,0 +1,5 @@
+S6[n]=S6[(n+49)]:55 states - 23ms
+ S6[n]=S6[(n+54)]:57 states - 16ms
+  (S6[n]=S6[(n+49)]|S6[n]=S6[(n+54)]):1 states - 2ms
+   (A n (S6[n]=S6[(n+49)]|S6[n]=S6[(n+54)])):1 states - 3ms
+Total computation time: 117ms.

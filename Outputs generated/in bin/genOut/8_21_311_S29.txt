@@ -1,0 +1,4 @@
+morphism sha29 "0->100110010011001000 1->110110010011001000":
+image S29 sha29 T:
+eval pp8_21_checkS29 "An (S29[n]=S29[n+8]|S29[n]=S29[n+21])":
+eval cubeplusfree_S29 "Ei,n n>0 & Aj (j<=2*n) => S29[i+j] = S29[i+j+n]":

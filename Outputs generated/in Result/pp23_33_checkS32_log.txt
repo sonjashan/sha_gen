@@ -1,0 +1,5 @@
+S32[n]=S32[(n+23)]:31 states - 14ms
+ S32[n]=S32[(n+33)]:32 states - 13ms
+  (S32[n]=S32[(n+23)]|S32[n]=S32[(n+33)]):1 states - 1ms
+   (A n (S32[n]=S32[(n+23)]|S32[n]=S32[(n+33)])):1 states - 1ms
+Total computation time: 54ms.

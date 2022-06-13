@@ -1,0 +1,4 @@
+morphism sha21 "0->110011000 1->110011100":
+image S21 sha21 T:
+eval pp4_15_checkS21 "An (S21[n]=S21[n+4]|S21[n]=S21[n+15])":
+eval cubeplusfree_S21 "Ei,n n>0 & Aj (j<=2*n) => S21[i+j] = S21[i+j+n]":

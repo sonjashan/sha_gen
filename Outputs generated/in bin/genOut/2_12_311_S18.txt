@@ -1,0 +1,4 @@
+morphism sha18 "0->1101110010001000 1->1101110110001000":
+image S18 sha18 T:
+eval pp2_12_checkS18 "An (S18[n]=S18[n+2]|S18[n]=S18[n+12])":
+eval cubeplusfree_S18 "Ei,n n>0 & Aj (j<=2*n) => S18[i+j] = S18[i+j+n]":

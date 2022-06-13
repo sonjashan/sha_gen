@@ -1,0 +1,4 @@
+morphism sha22 "0->11001001100010011001000 1->11001001110010011001000":
+image S22 sha22 T:
+eval pp5_15_checkS22 "An (S22[n]=S22[n+5]|S22[n]=S22[n+15])":
+eval cubeplusfree_S22 "Ei,n n>0 & Aj (j<=2*n) => S22[i+j] = S22[i+j+n]":

@@ -1,0 +1,5 @@
+S25[n]=S25[(n+7)]:20 states - 9ms
+ S25[n]=S25[(n+17)]:26 states - 7ms
+  (S25[n]=S25[(n+7)]|S25[n]=S25[(n+17)]):1 states - 0ms
+   (A n (S25[n]=S25[(n+7)]|S25[n]=S25[(n+17)])):1 states - 0ms
+Total computation time: 19ms.

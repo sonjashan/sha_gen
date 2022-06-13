@@ -1,0 +1,5 @@
+S2[n]=S2[(n+4)]:14 states - 11ms
+ S2[n]=S2[(n+46)]:46 states - 11ms
+  (S2[n]=S2[(n+4)]|S2[n]=S2[(n+46)]):1 states - 1ms
+   (A n (S2[n]=S2[(n+4)]|S2[n]=S2[(n+46)])):1 states - 4ms
+Total computation time: 98ms.

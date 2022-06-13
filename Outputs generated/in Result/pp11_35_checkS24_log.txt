@@ -1,0 +1,5 @@
+S24[n]=S24[(n+11)]:48 states - 50ms
+ S24[n]=S24[(n+35)]:56 states - 36ms
+  (S24[n]=S24[(n+11)]|S24[n]=S24[(n+35)]):1 states - 2ms
+   (A n (S24[n]=S24[(n+11)]|S24[n]=S24[(n+35)])):1 states - 3ms
+Total computation time: 160ms.

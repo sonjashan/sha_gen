@@ -1,0 +1,5 @@
+S37[n]=S37[(n+33)]:41 states - 40ms
+ S37[n]=S37[(n+44)]:45 states - 24ms
+  (S37[n]=S37[(n+33)]|S37[n]=S37[(n+44)]):1 states - 2ms
+   (A n (S37[n]=S37[(n+33)]|S37[n]=S37[(n+44)])):1 states - 4ms
+Total computation time: 140ms.

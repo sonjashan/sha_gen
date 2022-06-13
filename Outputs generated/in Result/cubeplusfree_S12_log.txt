@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S12[(i+j)]=S12[((i+j)+n)]:840 states - 328ms
+   (j<=(2*n)=>S12[(i+j)]=S12[((i+j)+n)]):2521 states - 50ms
+    (A j (j<=(2*n)=>S12[(i+j)]=S12[((i+j)+n)])):1 states - 4428ms
+     (n>0&(A j (j<=(2*n)=>S12[(i+j)]=S12[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S12[(i+j)]=S12[((i+j)+n)])))):1 states - 0ms
+Total computation time: 4808ms.

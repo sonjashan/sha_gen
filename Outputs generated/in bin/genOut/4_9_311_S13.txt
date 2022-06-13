@@ -1,0 +1,4 @@
+morphism sha13 "0->1010001001000 1->1010011001000":
+image S13 sha13 T:
+eval pp4_9_checkS13 "An (S13[n]=S13[n+4]|S13[n]=S13[n+9])":
+eval cubeplusfree_S13 "Ei,n n>0 & Aj (j<=2*n) => S13[i+j] = S13[i+j+n]":

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S67[(i+j)]=S67[((i+j)+n)]:577 states - 161ms
+   (j<=(2*n)=>S67[(i+j)]=S67[((i+j)+n)]):1425 states - 71ms
+    (A j (j<=(2*n)=>S67[(i+j)]=S67[((i+j)+n)])):1 states - 4673ms
+     (n>0&(A j (j<=(2*n)=>S67[(i+j)]=S67[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S67[(i+j)]=S67[((i+j)+n)])))):1 states - 0ms
+Total computation time: 4907ms.

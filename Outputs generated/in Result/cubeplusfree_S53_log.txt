@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S53[(i+j)]=S53[((i+j)+n)]:2400 states - 849ms
+   (j<=(2*n)=>S53[(i+j)]=S53[((i+j)+n)]):7201 states - 131ms
+    (A j (j<=(2*n)=>S53[(i+j)]=S53[((i+j)+n)])):1 states - 16032ms
+     (n>0&(A j (j<=(2*n)=>S53[(i+j)]=S53[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S53[(i+j)]=S53[((i+j)+n)])))):1 states - 0ms
+Total computation time: 17015ms.

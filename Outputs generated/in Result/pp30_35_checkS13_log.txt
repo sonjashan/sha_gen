@@ -1,0 +1,5 @@
+S13[n]=S13[(n+30)]:42 states - 30ms
+ S13[n]=S13[(n+35)]:46 states - 24ms
+  (S13[n]=S13[(n+30)]|S13[n]=S13[(n+35)]):1 states - 2ms
+   (A n (S13[n]=S13[(n+30)]|S13[n]=S13[(n+35)])):1 states - 4ms
+Total computation time: 130ms.

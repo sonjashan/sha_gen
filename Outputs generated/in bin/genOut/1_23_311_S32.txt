@@ -1,0 +1,4 @@
+morphism sha32 "0->11000110001000 1->11000110011100":
+image S32 sha32 T:
+eval pp1_23_checkS32 "An (S32[n]=S32[n+1]|S32[n]=S32[n+23])":
+eval cubeplusfree_S32 "Ei,n n>0 & Aj (j<=2*n) => S32[i+j] = S32[i+j+n]":

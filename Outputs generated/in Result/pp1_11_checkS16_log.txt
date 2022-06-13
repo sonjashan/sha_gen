@@ -1,0 +1,5 @@
+S16[n]=S16[(n+1)]:38 states - 21ms
+ S16[n]=S16[(n+11)]:42 states - 25ms
+  (S16[n]=S16[(n+1)]|S16[n]=S16[(n+11)]):1 states - 1ms
+   (A n (S16[n]=S16[(n+1)]|S16[n]=S16[(n+11)])):1 states - 1ms
+Total computation time: 48ms.

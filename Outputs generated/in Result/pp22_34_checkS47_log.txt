@@ -1,0 +1,5 @@
+S47[n]=S47[(n+22)]:31 states - 5ms
+ S47[n]=S47[(n+34)]:35 states - 7ms
+  (S47[n]=S47[(n+22)]|S47[n]=S47[(n+34)]):1 states - 0ms
+   (A n (S47[n]=S47[(n+22)]|S47[n]=S47[(n+34)])):1 states - 0ms
+Total computation time: 14ms.

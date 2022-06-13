@@ -1,0 +1,4 @@
+morphism sha15 "0->10101101010010100 1->10101101011010100":
+image S15 sha15 T:
+eval pp2_10_checkS15 "An (S15[n]=S15[n+2]|S15[n]=S15[n+10])":
+eval cubeplusfree_S15 "Ei,n n>0 & Aj (j<=2*n) => S15[i+j] = S15[i+j+n]":

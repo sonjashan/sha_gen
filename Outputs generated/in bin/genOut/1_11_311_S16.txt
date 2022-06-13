@@ -1,0 +1,4 @@
+morphism sha16 "0->1100100110001001000 1->1100100111001001000":
+image S16 sha16 T:
+eval pp1_11_checkS16 "An (S16[n]=S16[n+1]|S16[n]=S16[n+11])":
+eval cubeplusfree_S16 "Ei,n n>0 & Aj (j<=2*n) => S16[i+j] = S16[i+j+n]":

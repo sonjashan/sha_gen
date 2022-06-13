@@ -1,0 +1,5 @@
+S67[n]=S67[(n+38)]:35 states - 10ms
+ S67[n]=S67[(n+49)]:42 states - 9ms
+  (S67[n]=S67[(n+38)]|S67[n]=S67[(n+49)]):1 states - 1ms
+   (A n (S67[n]=S67[(n+38)]|S67[n]=S67[(n+49)])):1 states - 0ms
+Total computation time: 25ms.

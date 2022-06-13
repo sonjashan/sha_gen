@@ -1,0 +1,4 @@
+morphism sha9 "0->10111010001001000 1->10111010001101000":
+image S9 sha9 T:
+eval pp2_7_checkS9 "An (S9[n]=S9[n+2]|S9[n]=S9[n+7])":
+eval cubeplusfree_S9 "Ei,n n>0 & Aj (j<=2*n) => S9[i+j] = S9[i+j+n]":

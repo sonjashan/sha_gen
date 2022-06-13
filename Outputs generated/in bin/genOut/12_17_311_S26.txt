@@ -1,0 +1,4 @@
+morphism sha26 "0->10100110100111000101000 1->10100110100110100101000":
+image S26 sha26 T:
+eval pp12_17_checkS26 "An (S26[n]=S26[n+12]|S26[n]=S26[n+17])":
+eval cubeplusfree_S26 "Ei,n n>0 & Aj (j<=2*n) => S26[i+j] = S26[i+j+n]":

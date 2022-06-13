@@ -1,0 +1,5 @@
+S35[n]=S35[(n+16)]:44 states - 38ms
+ S35[n]=S35[(n+43)]:50 states - 28ms
+  (S35[n]=S35[(n+16)]|S35[n]=S35[(n+43)]):1 states - 2ms
+   (A n (S35[n]=S35[(n+16)]|S35[n]=S35[(n+43)])):1 states - 4ms
+Total computation time: 142ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S11[(i+j)]=S11[((i+j)+n)]:982 states - 256ms
+   (j<=(2*n)=>S11[(i+j)]=S11[((i+j)+n)]):2405 states - 57ms
+    (A j (j<=(2*n)=>S11[(i+j)]=S11[((i+j)+n)])):1 states - 6046ms
+     (n>0&(A j (j<=(2*n)=>S11[(i+j)]=S11[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S11[(i+j)]=S11[((i+j)+n)])))):1 states - 1ms
+Total computation time: 6361ms.

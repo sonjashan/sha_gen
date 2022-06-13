@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S68[(i+j)]=S68[((i+j)+n)]:2024 states - 788ms
+   (j<=(2*n)=>S68[(i+j)]=S68[((i+j)+n)]):6073 states - 163ms
+    (A j (j<=(2*n)=>S68[(i+j)]=S68[((i+j)+n)])):1 states - 12625ms
+     (n>0&(A j (j<=(2*n)=>S68[(i+j)]=S68[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S68[(i+j)]=S68[((i+j)+n)])))):1 states - 1ms
+Total computation time: 13581ms.

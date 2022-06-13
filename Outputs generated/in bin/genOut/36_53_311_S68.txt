@@ -1,0 +1,4 @@
+morphism sha68 "0->111000110001110001000 1->111000110001110011000":
+image S68 sha68 T:
+eval pp36_53_checkS68 "An (S68[n]=S68[n+36]|S68[n]=S68[n+53])":
+eval cubeplusfree_S68 "Ei,n n>0 & Aj (j<=2*n) => S68[i+j] = S68[i+j+n]":

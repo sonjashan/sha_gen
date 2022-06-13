@@ -1,0 +1,4 @@
+morphism sha20 "0->1100101100100110100 1->1001101100101100110":
+image S20 sha20 T:
+eval pp9_13_checkS20 "An (S20[n]=S20[n+9]|S20[n]=S20[n+13])":
+eval cubeplusfree_S20 "Ei,n n>0 & Aj (j<=2*n) => S20[i+j] = S20[i+j+n]":

@@ -1,0 +1,5 @@
+S30[n]=S30[(n+30)]:46 states - 45ms
+ S30[n]=S30[(n+38)]:52 states - 25ms
+  (S30[n]=S30[(n+30)]|S30[n]=S30[(n+38)]):1 states - 2ms
+   (A n (S30[n]=S30[(n+30)]|S30[n]=S30[(n+38)])):1 states - 3ms
+Total computation time: 164ms.

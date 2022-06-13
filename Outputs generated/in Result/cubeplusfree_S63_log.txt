@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S63[(i+j)]=S63[((i+j)+n)]:2808 states - 1152ms
+   (j<=(2*n)=>S63[(i+j)]=S63[((i+j)+n)]):8425 states - 152ms
+    (A j (j<=(2*n)=>S63[(i+j)]=S63[((i+j)+n)])):1 states - 19747ms
+     (n>0&(A j (j<=(2*n)=>S63[(i+j)]=S63[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S63[(i+j)]=S63[((i+j)+n)])))):1 states - 1ms
+Total computation time: 21054ms.

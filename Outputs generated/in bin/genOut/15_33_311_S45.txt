@@ -1,0 +1,4 @@
+morphism sha45 "0->1110011100011000 1->1110001110011000":
+image S45 sha45 T:
+eval pp15_33_checkS45 "An (S45[n]=S45[n+15]|S45[n]=S45[n+33])":
+eval cubeplusfree_S45 "Ei,n n>0 & Aj (j<=2*n) => S45[i+j] = S45[i+j+n]":

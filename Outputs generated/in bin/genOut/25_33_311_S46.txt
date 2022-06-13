@@ -1,0 +1,4 @@
+morphism sha46 "0->100110010001001000 1->100110010011001000":
+image S46 sha46 T:
+eval pp25_33_checkS46 "An (S46[n]=S46[n+25]|S46[n]=S46[n+33])":
+eval cubeplusfree_S46 "Ei,n n>0 & Aj (j<=2*n) => S46[i+j] = S46[i+j+n]":

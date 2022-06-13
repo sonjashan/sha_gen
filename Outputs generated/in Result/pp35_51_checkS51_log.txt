@@ -1,0 +1,5 @@
+S51[n]=S51[(n+35)]:46 states - 37ms
+ S51[n]=S51[(n+51)]:48 states - 25ms
+  (S51[n]=S51[(n+35)]|S51[n]=S51[(n+51)]):1 states - 2ms
+   (A n (S51[n]=S51[(n+35)]|S51[n]=S51[(n+51)])):1 states - 3ms
+Total computation time: 140ms.

@@ -1,0 +1,5 @@
+S40[n]=S40[(n+22)]:48 states - 34ms
+ S40[n]=S40[(n+35)]:52 states - 23ms
+  (S40[n]=S40[(n+22)]|S40[n]=S40[(n+35)]):1 states - 1ms
+   (A n (S40[n]=S40[(n+22)]|S40[n]=S40[(n+35)])):1 states - 1ms
+Total computation time: 86ms.

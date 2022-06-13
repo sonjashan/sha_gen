@@ -1,0 +1,5 @@
+S19[n]=S19[(n+34)]:54 states - 59ms
+ S19[n]=S19[(n+50)]:58 states - 36ms
+  (S19[n]=S19[(n+34)]|S19[n]=S19[(n+50)]):1 states - 2ms
+   (A n (S19[n]=S19[(n+34)]|S19[n]=S19[(n+50)])):1 states - 3ms
+Total computation time: 172ms.

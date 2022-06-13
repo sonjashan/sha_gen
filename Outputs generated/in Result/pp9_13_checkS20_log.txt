@@ -1,0 +1,5 @@
+S20[n]=S20[(n+9)]:50 states - 32ms
+ S20[n]=S20[(n+13)]:52 states - 25ms
+  (S20[n]=S20[(n+9)]|S20[n]=S20[(n+13)]):1 states - 0ms
+   (A n (S20[n]=S20[(n+9)]|S20[n]=S20[(n+13)])):1 states - 1ms
+Total computation time: 60ms.

@@ -1,0 +1,5 @@
+S31[n]=S31[(n+33)]:46 states - 43ms
+ S31[n]=S31[(n+41)]:52 states - 26ms
+  (S31[n]=S31[(n+33)]|S31[n]=S31[(n+41)]):1 states - 3ms
+   (A n (S31[n]=S31[(n+33)]|S31[n]=S31[(n+41)])):1 states - 3ms
+Total computation time: 147ms.

@@ -1,0 +1,5 @@
+S36[n]=S36[(n+43)]:54 states - 51ms
+ S36[n]=S36[(n+54)]:56 states - 27ms
+  (S36[n]=S36[(n+43)]|S36[n]=S36[(n+54)]):1 states - 2ms
+   (A n (S36[n]=S36[(n+43)]|S36[n]=S36[(n+54)])):1 states - 3ms
+Total computation time: 174ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S24[(i+j)]=S24[((i+j)+n)]:1680 states - 666ms
+   (j<=(2*n)=>S24[(i+j)]=S24[((i+j)+n)]):5041 states - 139ms
+    (A j (j<=(2*n)=>S24[(i+j)]=S24[((i+j)+n)])):1 states - 9987ms
+     (n>0&(A j (j<=(2*n)=>S24[(i+j)]=S24[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S24[(i+j)]=S24[((i+j)+n)])))):1 states - 1ms
+Total computation time: 10796ms.

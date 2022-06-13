@@ -1,0 +1,5 @@
+S65[n]=S65[(n+38)]:56 states - 24ms
+ S65[n]=S65[(n+48)]:62 states - 22ms
+  (S65[n]=S65[(n+38)]|S65[n]=S65[(n+48)]):1 states - 1ms
+   (A n (S65[n]=S65[(n+38)]|S65[n]=S65[(n+48)])):1 states - 0ms
+Total computation time: 50ms.

@@ -1,0 +1,5 @@
+S7[n]=S7[(n+5)]:22 states - 22ms
+ S7[n]=S7[(n+25)]:36 states - 21ms
+  (S7[n]=S7[(n+5)]|S7[n]=S7[(n+25)]):1 states - 2ms
+   (A n (S7[n]=S7[(n+5)]|S7[n]=S7[(n+25)])):1 states - 3ms
+Total computation time: 114ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S21[(i+j)]=S21[((i+j)+n)]:440 states - 183ms
+   (j<=(2*n)=>S21[(i+j)]=S21[((i+j)+n)]):1321 states - 60ms
+    (A j (j<=(2*n)=>S21[(i+j)]=S21[((i+j)+n)])):1 states - 1974ms
+     (n>0&(A j (j<=(2*n)=>S21[(i+j)]=S21[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S21[(i+j)]=S21[((i+j)+n)])))):1 states - 0ms
+Total computation time: 2218ms.

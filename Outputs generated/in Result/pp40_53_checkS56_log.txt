@@ -1,0 +1,5 @@
+S56[n]=S56[(n+40)]:54 states - 49ms
+ S56[n]=S56[(n+53)]:58 states - 28ms
+  (S56[n]=S56[(n+40)]|S56[n]=S56[(n+53)]):1 states - 1ms
+   (A n (S56[n]=S56[(n+40)]|S56[n]=S56[(n+53)])):1 states - 3ms
+Total computation time: 170ms.

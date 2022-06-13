@@ -1,0 +1,5 @@
+S4[n]=S4[(n+11)]:15 states - 11ms
+ S4[n]=S4[(n+37)]:32 states - 8ms
+  (S4[n]=S4[(n+11)]|S4[n]=S4[(n+37)]):1 states - 1ms
+   (A n (S4[n]=S4[(n+11)]|S4[n]=S4[(n+37)])):1 states - 4ms
+Total computation time: 94ms.

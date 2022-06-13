@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S3[(i+j)]=S3[((i+j)+n)]:624 states - 342ms
+   (j<=(2*n)=>S3[(i+j)]=S3[((i+j)+n)]):1873 states - 44ms
+    (A j (j<=(2*n)=>S3[(i+j)]=S3[((i+j)+n)])):1 states - 3132ms
+     (n>0&(A j (j<=(2*n)=>S3[(i+j)]=S3[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S3[(i+j)]=S3[((i+j)+n)])))):1 states - 0ms
+Total computation time: 3521ms.

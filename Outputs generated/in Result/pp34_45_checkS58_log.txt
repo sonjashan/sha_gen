@@ -1,0 +1,5 @@
+S58[n]=S58[(n+34)]:54 states - 60ms
+ S58[n]=S58[(n+45)]:54 states - 35ms
+  (S58[n]=S58[(n+34)]|S58[n]=S58[(n+45)]):1 states - 1ms
+   (A n (S58[n]=S58[(n+34)]|S58[n]=S58[(n+45)])):1 states - 5ms
+Total computation time: 172ms.

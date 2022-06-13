@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S66[(i+j)]=S66[((i+j)+n)]:1168 states - 433ms
+   (j<=(2*n)=>S66[(i+j)]=S66[((i+j)+n)]):2961 states - 63ms
+    (A j (j<=(2*n)=>S66[(i+j)]=S66[((i+j)+n)])):1 states - 7458ms
+     (n>0&(A j (j<=(2*n)=>S66[(i+j)]=S66[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S66[(i+j)]=S66[((i+j)+n)])))):1 states - 1ms
+Total computation time: 7958ms.

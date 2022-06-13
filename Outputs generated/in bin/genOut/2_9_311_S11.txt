@@ -1,0 +1,4 @@
+morphism sha11 "0->10110010100110100100 1->10110110100110100100":
+image S11 sha11 T:
+eval pp2_9_checkS11 "An (S11[n]=S11[n+2]|S11[n]=S11[n+9])":
+eval cubeplusfree_S11 "Ei,n n>0 & Aj (j<=2*n) => S11[i+j] = S11[i+j+n]":

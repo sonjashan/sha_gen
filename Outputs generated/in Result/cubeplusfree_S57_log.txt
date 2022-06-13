@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S57[(i+j)]=S57[((i+j)+n)]:2400 states - 844ms
+   (j<=(2*n)=>S57[(i+j)]=S57[((i+j)+n)]):7201 states - 136ms
+    (A j (j<=(2*n)=>S57[(i+j)]=S57[((i+j)+n)])):1 states - 16098ms
+     (n>0&(A j (j<=(2*n)=>S57[(i+j)]=S57[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S57[(i+j)]=S57[((i+j)+n)])))):1 states - 0ms
+Total computation time: 17080ms.

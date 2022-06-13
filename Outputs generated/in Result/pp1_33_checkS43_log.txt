@@ -1,0 +1,5 @@
+S43[n]=S43[(n+1)]:28 states - 8ms
+ S43[n]=S43[(n+33)]:39 states - 9ms
+  (S43[n]=S43[(n+1)]|S43[n]=S43[(n+33)]):1 states - 0ms
+   (A n (S43[n]=S43[(n+1)]|S43[n]=S43[(n+33)])):1 states - 1ms
+Total computation time: 19ms.

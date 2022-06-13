@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S39[(i+j)]=S39[((i+j)+n)]:1680 states - 684ms
+   (j<=(2*n)=>S39[(i+j)]=S39[((i+j)+n)]):5041 states - 121ms
+    (A j (j<=(2*n)=>S39[(i+j)]=S39[((i+j)+n)])):1 states - 9771ms
+     (n>0&(A j (j<=(2*n)=>S39[(i+j)]=S39[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S39[(i+j)]=S39[((i+j)+n)])))):1 states - 0ms
+Total computation time: 10580ms.

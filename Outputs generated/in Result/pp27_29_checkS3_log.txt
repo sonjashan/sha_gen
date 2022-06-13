@@ -1,0 +1,5 @@
+S3[n]=S3[(n+27)]:34 states - 27ms
+ S3[n]=S3[(n+29)]:40 states - 18ms
+  (S3[n]=S3[(n+27)]|S3[n]=S3[(n+29)]):1 states - 2ms
+   (A n (S3[n]=S3[(n+27)]|S3[n]=S3[(n+29)])):1 states - 3ms
+Total computation time: 118ms.

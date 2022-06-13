@@ -1,0 +1,4 @@
+morphism sha47 "0->10110010111000 1->10110010110100":
+image S47 sha47 T:
+eval pp22_34_checkS47 "An (S47[n]=S47[n+22]|S47[n]=S47[n+34])":
+eval cubeplusfree_S47 "Ei,n n>0 & Aj (j<=2*n) => S47[i+j] = S47[i+j+n]":

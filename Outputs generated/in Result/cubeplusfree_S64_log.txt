@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S64[(i+j)]=S64[((i+j)+n)]:1680 states - 712ms
+   (j<=(2*n)=>S64[(i+j)]=S64[((i+j)+n)]):5041 states - 141ms
+    (A j (j<=(2*n)=>S64[(i+j)]=S64[((i+j)+n)])):1 states - 10534ms
+     (n>0&(A j (j<=(2*n)=>S64[(i+j)]=S64[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S64[(i+j)]=S64[((i+j)+n)])))):1 states - 1ms
+Total computation time: 11392ms.

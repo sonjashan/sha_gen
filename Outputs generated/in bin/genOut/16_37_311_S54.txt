@@ -1,0 +1,4 @@
+morphism sha54 "0->110110001001000 1->110110011001000":
+image S54 sha54 T:
+eval pp16_37_checkS54 "An (S54[n]=S54[n+16]|S54[n]=S54[n+37])":
+eval cubeplusfree_S54 "Ei,n n>0 & Aj (j<=2*n) => S54[i+j] = S54[i+j+n]":

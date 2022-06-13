@@ -1,0 +1,5 @@
+S50[n]=S50[(n+24)]:50 states - 23ms
+ S50[n]=S50[(n+35)]:54 states - 28ms
+  (S50[n]=S50[(n+24)]|S50[n]=S50[(n+35)]):1 states - 0ms
+   (A n (S50[n]=S50[(n+24)]|S50[n]=S50[(n+35)])):1 states - 0ms
+Total computation time: 55ms.

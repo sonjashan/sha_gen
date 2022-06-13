@@ -1,0 +1,5 @@
+S45[n]=S45[(n+15)]:29 states - 14ms
+ S45[n]=S45[(n+33)]:32 states - 13ms
+  (S45[n]=S45[(n+15)]|S45[n]=S45[(n+33)]):1 states - 0ms
+   (A n (S45[n]=S45[(n+15)]|S45[n]=S45[(n+33)])):1 states - 1ms
+Total computation time: 30ms.

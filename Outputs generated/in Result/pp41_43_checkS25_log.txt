@@ -1,0 +1,5 @@
+S25[n]=S25[(n+41)]:34 states - 19ms
+ S25[n]=S25[(n+43)]:39 states - 13ms
+  (S25[n]=S25[(n+41)]|S25[n]=S25[(n+43)]):1 states - 1ms
+   (A n (S25[n]=S25[(n+41)]|S25[n]=S25[(n+43)])):1 states - 4ms
+Total computation time: 107ms.

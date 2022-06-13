@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S49[(i+j)]=S49[((i+j)+n)]:1185 states - 365ms
+   (j<=(2*n)=>S49[(i+j)]=S49[((i+j)+n)]):2995 states - 62ms
+    (A j (j<=(2*n)=>S49[(i+j)]=S49[((i+j)+n)])):1 states - 7579ms
+     (n>0&(A j (j<=(2*n)=>S49[(i+j)]=S49[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S49[(i+j)]=S49[((i+j)+n)])))):1 states - 0ms
+Total computation time: 8009ms.

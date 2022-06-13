@@ -1,0 +1,4 @@
+morphism sha41 "0->101101011010010100 1->101101001011010100":
+image S41 sha41 T:
+eval pp26_30_checkS41 "An (S41[n]=S41[n+26]|S41[n]=S41[n+30])":
+eval cubeplusfree_S41 "Ei,n n>0 & Aj (j<=2*n) => S41[i+j] = S41[i+j+n]":

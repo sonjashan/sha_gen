@@ -1,0 +1,5 @@
+S41[n]=S41[(n+26)]:39 states - 19ms
+ S41[n]=S41[(n+30)]:40 states - 16ms
+  (S41[n]=S41[(n+26)]|S41[n]=S41[(n+30)]):1 states - 1ms
+   (A n (S41[n]=S41[(n+26)]|S41[n]=S41[(n+30)])):1 states - 0ms
+Total computation time: 38ms.

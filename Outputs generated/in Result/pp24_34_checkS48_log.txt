@@ -1,0 +1,5 @@
+S48[n]=S48[(n+24)]:59 states - 16ms
+ S48[n]=S48[(n+34)]:74 states - 15ms
+  (S48[n]=S48[(n+24)]|S48[n]=S48[(n+34)]):1 states - 0ms
+   (A n (S48[n]=S48[(n+24)]|S48[n]=S48[(n+34)])):1 states - 1ms
+Total computation time: 35ms.

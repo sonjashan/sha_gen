@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S55[(i+j)]=S55[((i+j)+n)]:1680 states - 642ms
+   (j<=(2*n)=>S55[(i+j)]=S55[((i+j)+n)]):5041 states - 108ms
+    (A j (j<=(2*n)=>S55[(i+j)]=S55[((i+j)+n)])):1 states - 9891ms
+     (n>0&(A j (j<=(2*n)=>S55[(i+j)]=S55[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S55[(i+j)]=S55[((i+j)+n)])))):1 states - 0ms
+Total computation time: 10643ms.

@@ -1,0 +1,4 @@
+morphism sha30 "0->10100010010001000 1->10100110010001000":
+image S30 sha30 T:
+eval pp13_21_checkS30 "An (S30[n]=S30[n+13]|S30[n]=S30[n+21])":
+eval cubeplusfree_S30 "Ei,n n>0 & Aj (j<=2*n) => S30[i+j] = S30[i+j+n]":

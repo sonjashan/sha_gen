@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S61[(i+j)]=S61[((i+j)+n)]:2808 states - 1006ms
+   (j<=(2*n)=>S61[(i+j)]=S61[((i+j)+n)]):8425 states - 162ms
+    (A j (j<=(2*n)=>S61[(i+j)]=S61[((i+j)+n)])):1 states - 20247ms
+     (n>0&(A j (j<=(2*n)=>S61[(i+j)]=S61[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S61[(i+j)]=S61[((i+j)+n)])))):1 states - 1ms
+Total computation time: 21419ms.

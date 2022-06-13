@@ -1,0 +1,4 @@
+morphism sha64 "0->1101100100110100100 1->1100101100110100100":
+image S64 sha64 T:
+eval pp31_48_checkS64 "An (S64[n]=S64[n+31]|S64[n]=S64[n+48])":
+eval cubeplusfree_S64 "Ei,n n>0 & Aj (j<=2*n) => S64[i+j] = S64[i+j+n]":

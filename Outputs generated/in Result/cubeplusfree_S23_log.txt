@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S23[(i+j)]=S23[((i+j)+n)]:840 states - 347ms
+   (j<=(2*n)=>S23[(i+j)]=S23[((i+j)+n)]):2521 states - 62ms
+    (A j (j<=(2*n)=>S23[(i+j)]=S23[((i+j)+n)])):1 states - 4443ms
+     (n>0&(A j (j<=(2*n)=>S23[(i+j)]=S23[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S23[(i+j)]=S23[((i+j)+n)])))):1 states - 1ms
+Total computation time: 4856ms.

@@ -1,0 +1,4 @@
+morphism sha66 "0->1100110001000110001000 1->1100011001000110001000":
+image S66 sha66 T:
+eval pp30_49_checkS66 "An (S66[n]=S66[n+30]|S66[n]=S66[n+49])":
+eval cubeplusfree_S66 "Ei,n n>0 & Aj (j<=2*n) => S66[i+j] = S66[i+j+n]":

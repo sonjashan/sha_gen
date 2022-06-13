@@ -1,0 +1,5 @@
+S33[n]=S33[(n+23)]:41 states - 13ms
+ S33[n]=S33[(n+25)]:37 states - 11ms
+  (S33[n]=S33[(n+23)]|S33[n]=S33[(n+25)]):1 states - 1ms
+   (A n (S33[n]=S33[(n+23)]|S33[n]=S33[(n+25)])):1 states - 1ms
+Total computation time: 48ms.

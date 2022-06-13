@@ -1,0 +1,5 @@
+S57[n]=S57[(n+9)]:46 states - 24ms
+ S57[n]=S57[(n+40)]:58 states - 28ms
+  (S57[n]=S57[(n+9)]|S57[n]=S57[(n+40)]):1 states - 1ms
+   (A n (S57[n]=S57[(n+9)]|S57[n]=S57[(n+40)])):1 states - 0ms
+Total computation time: 55ms.

@@ -1,0 +1,5 @@
+S9[n]=S9[(n+27)]:44 states - 42ms
+ S9[n]=S9[(n+49)]:52 states - 26ms
+  (S9[n]=S9[(n+27)]|S9[n]=S9[(n+49)]):1 states - 1ms
+   (A n (S9[n]=S9[(n+27)]|S9[n]=S9[(n+49)])):1 states - 4ms
+Total computation time: 155ms.

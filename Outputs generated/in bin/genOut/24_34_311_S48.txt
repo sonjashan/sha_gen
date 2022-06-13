@@ -1,0 +1,4 @@
+morphism sha48 "0->101110111001000100 1->011011101100010001":
+image S48 sha48 T:
+eval pp24_34_checkS48 "An (S48[n]=S48[n+24]|S48[n]=S48[n+34])":
+eval cubeplusfree_S48 "Ei,n n>0 & Aj (j<=2*n) => S48[i+j] = S48[i+j+n]":

@@ -1,0 +1,5 @@
+S17[n]=S17[(n+25)]:36 states - 34ms
+ S17[n]=S17[(n+47)]:47 states - 24ms
+  (S17[n]=S17[(n+25)]|S17[n]=S17[(n+47)]):1 states - 2ms
+   (A n (S17[n]=S17[(n+25)]|S17[n]=S17[(n+47)])):1 states - 4ms
+Total computation time: 135ms.

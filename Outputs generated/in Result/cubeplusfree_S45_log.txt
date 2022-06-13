@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S45[(i+j)]=S45[((i+j)+n)]:622 states - 142ms
+   (j<=(2*n)=>S45[(i+j)]=S45[((i+j)+n)]):1522 states - 68ms
+    (A j (j<=(2*n)=>S45[(i+j)]=S45[((i+j)+n)])):1 states - 2011ms
+     (n>0&(A j (j<=(2*n)=>S45[(i+j)]=S45[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S45[(i+j)]=S45[((i+j)+n)])))):1 states - 1ms
+Total computation time: 2223ms.

@@ -1,0 +1,4 @@
+morphism sha6 "0->1011101000101000 1->1011001001101000":
+image S6 sha6 T:
+eval pp1_6_checkS6 "An (S6[n]=S6[n+1]|S6[n]=S6[n+6])":
+eval cubeplusfree_S6 "Ei,n n>0 & Aj (j<=2*n) => S6[i+j] = S6[i+j+n]":

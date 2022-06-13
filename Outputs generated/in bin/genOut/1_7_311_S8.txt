@@ -1,0 +1,4 @@
+morphism sha8 "0->10011001000 1->10011001100":
+image S8 sha8 T:
+eval pp1_7_checkS8 "An (S8[n]=S8[n+1]|S8[n]=S8[n+7])":
+eval cubeplusfree_S8 "Ei,n n>0 & Aj (j<=2*n) => S8[i+j] = S8[i+j+n]":

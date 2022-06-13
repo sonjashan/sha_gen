@@ -1,0 +1,5 @@
+S64[n]=S64[(n+31)]:58 states - 31ms
+ S64[n]=S64[(n+48)]:68 states - 37ms
+  (S64[n]=S64[(n+31)]|S64[n]=S64[(n+48)]):1 states - 1ms
+   (A n (S64[n]=S64[(n+31)]|S64[n]=S64[(n+48)])):1 states - 1ms
+Total computation time: 75ms.

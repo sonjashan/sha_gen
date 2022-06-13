@@ -1,0 +1,5 @@
+S66[n]=S66[(n+30)]:54 states - 26ms
+ S66[n]=S66[(n+49)]:54 states - 33ms
+  (S66[n]=S66[(n+30)]|S66[n]=S66[(n+49)]):1 states - 1ms
+   (A n (S66[n]=S66[(n+30)]|S66[n]=S66[(n+49)])):1 states - 0ms
+Total computation time: 65ms.

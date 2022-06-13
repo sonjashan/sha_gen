@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S33[(i+j)]=S33[((i+j)+n)]:640 states - 154ms
+   (j<=(2*n)=>S33[(i+j)]=S33[((i+j)+n)]):1561 states - 67ms
+    (A j (j<=(2*n)=>S33[(i+j)]=S33[((i+j)+n)])):1 states - 4639ms
+     (n>0&(A j (j<=(2*n)=>S33[(i+j)]=S33[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S33[(i+j)]=S33[((i+j)+n)])))):1 states - 0ms
+Total computation time: 4863ms.

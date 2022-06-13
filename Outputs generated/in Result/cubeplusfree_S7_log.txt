@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S7[(i+j)]=S7[((i+j)+n)]:624 states - 281ms
+   (j<=(2*n)=>S7[(i+j)]=S7[((i+j)+n)]):1873 states - 36ms
+    (A j (j<=(2*n)=>S7[(i+j)]=S7[((i+j)+n)])):1 states - 2923ms
+     (n>0&(A j (j<=(2*n)=>S7[(i+j)]=S7[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S7[(i+j)]=S7[((i+j)+n)])))):1 states - 0ms
+Total computation time: 3242ms.

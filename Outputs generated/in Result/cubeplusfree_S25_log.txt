@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S25[(i+j)]=S25[((i+j)+n)]:385 states - 108ms
+   (j<=(2*n)=>S25[(i+j)]=S25[((i+j)+n)]):957 states - 28ms
+    (A j (j<=(2*n)=>S25[(i+j)]=S25[((i+j)+n)])):1 states - 1951ms
+     (n>0&(A j (j<=(2*n)=>S25[(i+j)]=S25[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S25[(i+j)]=S25[((i+j)+n)])))):1 states - 0ms
+Total computation time: 2088ms.

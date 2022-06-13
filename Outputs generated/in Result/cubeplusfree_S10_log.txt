@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S10[(i+j)]=S10[((i+j)+n)]:840 states - 376ms
+   (j<=(2*n)=>S10[(i+j)]=S10[((i+j)+n)]):2521 states - 43ms
+    (A j (j<=(2*n)=>S10[(i+j)]=S10[((i+j)+n)])):1 states - 6707ms
+     (n>0&(A j (j<=(2*n)=>S10[(i+j)]=S10[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S10[(i+j)]=S10[((i+j)+n)])))):1 states - 1ms
+Total computation time: 7128ms.

@@ -1,0 +1,4 @@
+morphism sha33 "0->1010010001001000 1->1001010001001000":
+image S33 sha33 T:
+eval pp9_23_checkS33 "An (S33[n]=S33[n+9]|S33[n]=S33[n+23])":
+eval cubeplusfree_S33 "Ei,n n>0 & Aj (j<=2*n) => S33[i+j] = S33[i+j+n]":

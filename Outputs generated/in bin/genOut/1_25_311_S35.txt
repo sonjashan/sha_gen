@@ -1,0 +1,4 @@
+morphism sha35 "0->11001100011001000 1->11101100011001000":
+image S35 sha35 T:
+eval pp1_25_checkS35 "An (S35[n]=S35[n+1]|S35[n]=S35[n+25])":
+eval cubeplusfree_S35 "Ei,n n>0 & Aj (j<=2*n) => S35[i+j] = S35[i+j+n]":

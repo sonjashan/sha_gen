@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S17[(i+j)]=S17[((i+j)+n)]:800 states - 305ms
+   (j<=(2*n)=>S17[(i+j)]=S17[((i+j)+n)]):2041 states - 40ms
+    (A j (j<=(2*n)=>S17[(i+j)]=S17[((i+j)+n)])):1 states - 4583ms
+     (n>0&(A j (j<=(2*n)=>S17[(i+j)]=S17[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S17[(i+j)]=S17[((i+j)+n)])))):1 states - 0ms
+Total computation time: 4931ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S43[(i+j)]=S43[((i+j)+n)]:705 states - 164ms
+   (j<=(2*n)=>S43[(i+j)]=S43[((i+j)+n)]):1749 states - 66ms
+    (A j (j<=(2*n)=>S43[(i+j)]=S43[((i+j)+n)])):1 states - 6836ms
+     (n>0&(A j (j<=(2*n)=>S43[(i+j)]=S43[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S43[(i+j)]=S43[((i+j)+n)])))):1 states - 0ms
+Total computation time: 7068ms.

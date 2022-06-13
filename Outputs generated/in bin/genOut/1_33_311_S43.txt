@@ -1,0 +1,4 @@
+morphism sha43 "0->10110011010001001000 1->10110011011001001000":
+image S43 sha43 T:
+eval pp1_33_checkS43 "An (S43[n]=S43[n+1]|S43[n]=S43[n+33])":
+eval cubeplusfree_S43 "Ei,n n>0 & Aj (j<=2*n) => S43[i+j] = S43[i+j+n]":

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S26[(i+j)]=S26[((i+j)+n)]:2400 states - 791ms
+   (j<=(2*n)=>S26[(i+j)]=S26[((i+j)+n)]):7201 states - 123ms
+    (A j (j<=(2*n)=>S26[(i+j)]=S26[((i+j)+n)])):1 states - 16658ms
+     (n>0&(A j (j<=(2*n)=>S26[(i+j)]=S26[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S26[(i+j)]=S26[((i+j)+n)])))):1 states - 1ms
+Total computation time: 17576ms.

@@ -1,0 +1,4 @@
+morphism sha14 "0->1101001100100 1->1100101100100":
+image S14 sha14 T:
+eval pp7_9_checkS14 "An (S14[n]=S14[n+7]|S14[n]=S14[n+9])":
+eval cubeplusfree_S14 "Ei,n n>0 & Aj (j<=2*n) => S14[i+j] = S14[i+j+n]":

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S31[(i+j)]=S31[((i+j)+n)]:1368 states - 492ms
+   (j<=(2*n)=>S31[(i+j)]=S31[((i+j)+n)]):4105 states - 97ms
+    (A j (j<=(2*n)=>S31[(i+j)]=S31[((i+j)+n)])):1 states - 7189ms
+     (n>0&(A j (j<=(2*n)=>S31[(i+j)]=S31[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S31[(i+j)]=S31[((i+j)+n)])))):1 states - 1ms
+Total computation time: 7781ms.

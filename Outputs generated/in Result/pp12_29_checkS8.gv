@@ -1,0 +1,8 @@
+digraph G {
+label = "(): An (S8[n]=S8[n+12]|S8[n]=S8[n+29])";
+rankdir = LR;
+node [shape = doublecircle, label="0", fontsize=12]0;
+node [shape = point ]; qi
+qi ->0;
+0 -> 0[ label = "*"];
+}

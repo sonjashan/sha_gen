@@ -1,0 +1,5 @@
+S29[n]=S29[(n+28)]:41 states - 34ms
+ S29[n]=S29[(n+51)]:45 states - 27ms
+  (S29[n]=S29[(n+28)]|S29[n]=S29[(n+51)]):1 states - 2ms
+   (A n (S29[n]=S29[(n+28)]|S29[n]=S29[(n+51)])):1 states - 4ms
+Total computation time: 137ms.

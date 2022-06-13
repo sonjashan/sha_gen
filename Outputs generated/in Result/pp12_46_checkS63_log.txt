@@ -1,0 +1,5 @@
+S63[n]=S63[(n+12)]:56 states - 39ms
+ S63[n]=S63[(n+46)]:66 states - 57ms
+  (S63[n]=S63[(n+12)]|S63[n]=S63[(n+46)]):1 states - 1ms
+   (A n (S63[n]=S63[(n+12)]|S63[n]=S63[(n+46)])):1 states - 0ms
+Total computation time: 99ms.

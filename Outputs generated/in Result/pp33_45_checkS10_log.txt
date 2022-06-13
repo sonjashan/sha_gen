@@ -1,0 +1,5 @@
+S10[n]=S10[(n+33)]:46 states - 31ms
+ S10[n]=S10[(n+45)]:48 states - 22ms
+  (S10[n]=S10[(n+33)]|S10[n]=S10[(n+45)]):1 states - 2ms
+   (A n (S10[n]=S10[(n+33)]|S10[n]=S10[(n+45)])):1 states - 4ms
+Total computation time: 134ms.

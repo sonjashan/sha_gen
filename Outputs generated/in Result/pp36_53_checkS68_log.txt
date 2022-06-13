@@ -1,0 +1,5 @@
+S68[n]=S68[(n+36)]:54 states - 33ms
+ S68[n]=S68[(n+53)]:60 states - 45ms
+  (S68[n]=S68[(n+36)]|S68[n]=S68[(n+53)]):1 states - 1ms
+   (A n (S68[n]=S68[(n+36)]|S68[n]=S68[(n+53)])):1 states - 0ms
+Total computation time: 85ms.

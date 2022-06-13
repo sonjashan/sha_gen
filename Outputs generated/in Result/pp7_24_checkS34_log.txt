@@ -1,0 +1,5 @@
+S34[n]=S34[(n+7)]:38 states - 19ms
+ S34[n]=S34[(n+24)]:50 states - 35ms
+  (S34[n]=S34[(n+7)]|S34[n]=S34[(n+24)]):1 states - 1ms
+   (A n (S34[n]=S34[(n+7)]|S34[n]=S34[(n+24)])):1 states - 1ms
+Total computation time: 59ms.

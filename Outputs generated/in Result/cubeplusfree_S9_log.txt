@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S9[(i+j)]=S9[((i+j)+n)]:1368 states - 500ms
+   (j<=(2*n)=>S9[(i+j)]=S9[((i+j)+n)]):4105 states - 90ms
+    (A j (j<=(2*n)=>S9[(i+j)]=S9[((i+j)+n)])):1 states - 7021ms
+     (n>0&(A j (j<=(2*n)=>S9[(i+j)]=S9[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S9[(i+j)]=S9[((i+j)+n)])))):1 states - 0ms
+Total computation time: 7614ms.

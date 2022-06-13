@@ -1,0 +1,4 @@
+morphism sha40 "0->1011010010010100100 1->1011010010110100100":
+image S40 sha40 T:
+eval pp2_30_checkS40 "An (S40[n]=S40[n+2]|S40[n]=S40[n+30])":
+eval cubeplusfree_S40 "Ei,n n>0 & Aj (j<=2*n) => S40[i+j] = S40[i+j+n]":

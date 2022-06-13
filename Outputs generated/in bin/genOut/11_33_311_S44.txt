@@ -1,0 +1,4 @@
+morphism sha44 "0->101101011010010100 1->101101001010110100":
+image S44 sha44 T:
+eval pp11_33_checkS44 "An (S44[n]=S44[n+11]|S44[n]=S44[n+33])":
+eval cubeplusfree_S44 "Ei,n n>0 & Aj (j<=2*n) => S44[i+j] = S44[i+j+n]":

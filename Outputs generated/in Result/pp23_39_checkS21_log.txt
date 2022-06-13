@@ -1,0 +1,5 @@
+S21[n]=S21[(n+23)]:32 states - 12ms
+ S21[n]=S21[(n+39)]:40 states - 9ms
+  (S21[n]=S21[(n+23)]|S21[n]=S21[(n+39)]):1 states - 2ms
+   (A n (S21[n]=S21[(n+23)]|S21[n]=S21[(n+39)])):1 states - 1ms
+Total computation time: 49ms.

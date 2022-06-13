@@ -1,0 +1,5 @@
+S15[n]=S15[(n+20)]:44 states - 40ms
+ S15[n]=S15[(n+24)]:44 states - 24ms
+  (S15[n]=S15[(n+20)]|S15[n]=S15[(n+24)]):1 states - 1ms
+   (A n (S15[n]=S15[(n+20)]|S15[n]=S15[(n+24)])):1 states - 5ms
+Total computation time: 136ms.

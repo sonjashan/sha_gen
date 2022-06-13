@@ -1,0 +1,5 @@
+S12[n]=S12[(n+31)]:58 states - 32ms
+ S12[n]=S12[(n+47)]:66 states - 26ms
+  (S12[n]=S12[(n+31)]|S12[n]=S12[(n+47)]):1 states - 1ms
+   (A n (S12[n]=S12[(n+31)]|S12[n]=S12[(n+47)])):1 states - 3ms
+Total computation time: 134ms.

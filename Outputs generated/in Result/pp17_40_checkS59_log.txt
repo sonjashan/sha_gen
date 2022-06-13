@@ -1,0 +1,5 @@
+S59[n]=S59[(n+17)]:29 states - 17ms
+ S59[n]=S59[(n+40)]:31 states - 18ms
+  (S59[n]=S59[(n+17)]|S59[n]=S59[(n+40)]):1 states - 0ms
+   (A n (S59[n]=S59[(n+17)]|S59[n]=S59[(n+40)])):1 states - 1ms
+Total computation time: 38ms.

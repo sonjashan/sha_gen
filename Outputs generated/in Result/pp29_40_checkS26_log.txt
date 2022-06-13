@@ -1,0 +1,5 @@
+S26[n]=S26[(n+29)]:58 states - 66ms
+ S26[n]=S26[(n+40)]:62 states - 38ms
+  (S26[n]=S26[(n+29)]|S26[n]=S26[(n+40)]):1 states - 1ms
+   (A n (S26[n]=S26[(n+29)]|S26[n]=S26[(n+40)])):1 states - 5ms
+Total computation time: 178ms.

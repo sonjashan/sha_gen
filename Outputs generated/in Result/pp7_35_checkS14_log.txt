@@ -1,0 +1,5 @@
+S14[n]=S14[(n+7)]:34 states - 27ms
+ S14[n]=S14[(n+35)]:50 states - 23ms
+  (S14[n]=S14[(n+7)]|S14[n]=S14[(n+35)]):1 states - 1ms
+   (A n (S14[n]=S14[(n+7)]|S14[n]=S14[(n+35)])):1 states - 3ms
+Total computation time: 125ms.

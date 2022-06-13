@@ -1,0 +1,5 @@
+S23[n]=S23[(n+27)]:40 states - 31ms
+ S23[n]=S23[(n+44)]:44 states - 22ms
+  (S23[n]=S23[(n+27)]|S23[n]=S23[(n+44)]):1 states - 2ms
+   (A n (S23[n]=S23[(n+27)]|S23[n]=S23[(n+44)])):1 states - 3ms
+Total computation time: 145ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S48[(i+j)]=S48[((i+j)+n)]:712 states - 245ms
+   (j<=(2*n)=>S48[(i+j)]=S48[((i+j)+n)]):1865 states - 36ms
+    (A j (j<=(2*n)=>S48[(i+j)]=S48[((i+j)+n)])):1 states - 5652ms
+     (n>0&(A j (j<=(2*n)=>S48[(i+j)]=S48[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S48[(i+j)]=S48[((i+j)+n)])))):1 states - 1ms
+Total computation time: 5937ms.

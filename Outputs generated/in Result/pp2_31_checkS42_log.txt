@@ -1,0 +1,5 @@
+S42[n]=S42[(n+2)]:46 states - 22ms
+ S42[n]=S42[(n+31)]:64 states - 28ms
+  (S42[n]=S42[(n+2)]|S42[n]=S42[(n+31)]):1 states - 0ms
+   (A n (S42[n]=S42[(n+2)]|S42[n]=S42[(n+31)])):1 states - 1ms
+Total computation time: 53ms.

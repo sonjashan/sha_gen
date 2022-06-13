@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S8[(i+j)]=S8[((i+j)+n)]:624 states - 289ms
+   (j<=(2*n)=>S8[(i+j)]=S8[((i+j)+n)]):1873 states - 34ms
+    (A j (j<=(2*n)=>S8[(i+j)]=S8[((i+j)+n)])):1 states - 3162ms
+     (n>0&(A j (j<=(2*n)=>S8[(i+j)]=S8[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S8[(i+j)]=S8[((i+j)+n)])))):1 states - 0ms
+Total computation time: 3488ms.

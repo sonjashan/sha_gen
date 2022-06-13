@@ -1,0 +1,4 @@
+morphism sha57 "0->10110011010011001001000 1->10110011010011001011000":
+image S57 sha57 T:
+eval pp9_40_checkS57 "An (S57[n]=S57[n+9]|S57[n]=S57[n+40])":
+eval cubeplusfree_S57 "Ei,n n>0 & Aj (j<=2*n) => S57[i+j] = S57[i+j+n]":

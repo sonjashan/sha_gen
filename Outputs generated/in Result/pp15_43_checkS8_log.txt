@@ -1,0 +1,5 @@
+S8[n]=S8[(n+15)]:30 states - 23ms
+ S8[n]=S8[(n+43)]:44 states - 21ms
+  (S8[n]=S8[(n+15)]|S8[n]=S8[(n+43)]):1 states - 2ms
+   (A n (S8[n]=S8[(n+15)]|S8[n]=S8[(n+43)])):1 states - 3ms
+Total computation time: 119ms.

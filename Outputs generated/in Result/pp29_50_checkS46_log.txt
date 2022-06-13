@@ -1,0 +1,5 @@
+S46[n]=S46[(n+29)]:34 states - 35ms
+ S46[n]=S46[(n+50)]:43 states - 23ms
+  (S46[n]=S46[(n+29)]|S46[n]=S46[(n+50)]):1 states - 1ms
+   (A n (S46[n]=S46[(n+29)]|S46[n]=S46[(n+50)])):1 states - 4ms
+Total computation time: 133ms.

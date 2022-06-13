@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S29[(i+j)]=S29[((i+j)+n)]:817 states - 263ms
+   (j<=(2*n)=>S29[(i+j)]=S29[((i+j)+n)]):2075 states - 42ms
+    (A j (j<=(2*n)=>S29[(i+j)]=S29[((i+j)+n)])):1 states - 5384ms
+     (n>0&(A j (j<=(2*n)=>S29[(i+j)]=S29[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S29[(i+j)]=S29[((i+j)+n)])))):1 states - 1ms
+Total computation time: 5693ms.

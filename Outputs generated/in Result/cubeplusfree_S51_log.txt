@@ -1,0 +1,8 @@
+n>0:2 states - 1ms
+ j<=(2*n):3 states - 0ms
+  S51[(i+j)]=S51[((i+j)+n)]:976 states - 293ms
+   (j<=(2*n)=>S51[(i+j)]=S51[((i+j)+n)]):2417 states - 53ms
+    (A j (j<=(2*n)=>S51[(i+j)]=S51[((i+j)+n)])):1 states - 6509ms
+     (n>0&(A j (j<=(2*n)=>S51[(i+j)]=S51[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S51[(i+j)]=S51[((i+j)+n)])))):1 states - 1ms
+Total computation time: 6858ms.

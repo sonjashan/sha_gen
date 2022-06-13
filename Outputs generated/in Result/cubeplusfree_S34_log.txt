@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S34[(i+j)]=S34[((i+j)+n)]:1680 states - 674ms
+   (j<=(2*n)=>S34[(i+j)]=S34[((i+j)+n)]):5041 states - 138ms
+    (A j (j<=(2*n)=>S34[(i+j)]=S34[((i+j)+n)])):1 states - 9567ms
+     (n>0&(A j (j<=(2*n)=>S34[(i+j)]=S34[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S34[(i+j)]=S34[((i+j)+n)])))):1 states - 1ms
+Total computation time: 10384ms.

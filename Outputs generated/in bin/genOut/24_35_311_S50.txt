@@ -1,0 +1,4 @@
+morphism sha50 "0->1001011001101001000 1->1001011101101001000":
+image S50 sha50 T:
+eval pp24_35_checkS50 "An (S50[n]=S50[n+24]|S50[n]=S50[n+35])":
+eval cubeplusfree_S50 "Ei,n n>0 & Aj (j<=2*n) => S50[i+j] = S50[i+j+n]":

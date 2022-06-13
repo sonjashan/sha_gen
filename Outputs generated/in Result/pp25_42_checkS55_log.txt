@@ -1,0 +1,5 @@
+S55[n]=S55[(n+25)]:48 states - 68ms
+ S55[n]=S55[(n+42)]:54 states - 44ms
+  (S55[n]=S55[(n+25)]|S55[n]=S55[(n+42)]):1 states - 3ms
+   (A n (S55[n]=S55[(n+25)]|S55[n]=S55[(n+42)])):1 states - 5ms
+Total computation time: 213ms.

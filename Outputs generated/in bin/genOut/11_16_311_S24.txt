@@ -1,0 +1,4 @@
+morphism sha24 "0->1001100100011001000 1->1101100100011001000":
+image S24 sha24 T:
+eval pp11_16_checkS24 "An (S24[n]=S24[n+11]|S24[n]=S24[n+16])":
+eval cubeplusfree_S24 "Ei,n n>0 & Aj (j<=2*n) => S24[i+j] = S24[i+j+n]":

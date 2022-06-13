@@ -1,0 +1,5 @@
+S44[n]=S44[(n+30)]:39 states - 37ms
+ S44[n]=S44[(n+44)]:46 states - 25ms
+  (S44[n]=S44[(n+30)]|S44[n]=S44[(n+44)]):1 states - 2ms
+   (A n (S44[n]=S44[(n+30)]|S44[n]=S44[(n+44)])):1 states - 4ms
+Total computation time: 136ms.

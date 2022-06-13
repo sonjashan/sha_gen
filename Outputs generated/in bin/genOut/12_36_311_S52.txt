@@ -1,0 +1,4 @@
+morphism sha52 "0->10110110100100 1->10110100110100":
+image S52 sha52 T:
+eval pp12_36_checkS52 "An (S52[n]=S52[n+12]|S52[n]=S52[n+36])":
+eval cubeplusfree_S52 "Ei,n n>0 & Aj (j<=2*n) => S52[i+j] = S52[i+j+n]":

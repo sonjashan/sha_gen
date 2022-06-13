@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S30[(i+j)]=S30[((i+j)+n)]:1368 states - 530ms
+   (j<=(2*n)=>S30[(i+j)]=S30[((i+j)+n)]):4105 states - 120ms
+    (A j (j<=(2*n)=>S30[(i+j)]=S30[((i+j)+n)])):1 states - 7686ms
+     (n>0&(A j (j<=(2*n)=>S30[(i+j)]=S30[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S30[(i+j)]=S30[((i+j)+n)])))):1 states - 1ms
+Total computation time: 8339ms.

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S36[(i+j)]=S36[((i+j)+n)]:1368 states - 594ms
+   (j<=(2*n)=>S36[(i+j)]=S36[((i+j)+n)]):4105 states - 77ms
+    (A j (j<=(2*n)=>S36[(i+j)]=S36[((i+j)+n)])):1 states - 7821ms
+     (n>0&(A j (j<=(2*n)=>S36[(i+j)]=S36[((i+j)+n)]))):1 states - 1ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S36[(i+j)]=S36[((i+j)+n)])))):1 states - 1ms
+Total computation time: 8496ms.

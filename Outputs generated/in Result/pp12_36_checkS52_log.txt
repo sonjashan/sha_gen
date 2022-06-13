@@ -1,0 +1,5 @@
+S52[n]=S52[(n+12)]:25 states - 12ms
+ S52[n]=S52[(n+36)]:37 states - 12ms
+  (S52[n]=S52[(n+12)]|S52[n]=S52[(n+36)]):1 states - 0ms
+   (A n (S52[n]=S52[(n+12)]|S52[n]=S52[(n+36)])):1 states - 0ms
+Total computation time: 27ms.

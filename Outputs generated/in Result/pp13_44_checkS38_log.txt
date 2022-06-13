@@ -1,0 +1,5 @@
+S38[n]=S38[(n+13)]:30 states - 20ms
+ S38[n]=S38[(n+44)]:47 states - 16ms
+  (S38[n]=S38[(n+13)]|S38[n]=S38[(n+44)]):1 states - 1ms
+   (A n (S38[n]=S38[(n+13)]|S38[n]=S38[(n+44)])):1 states - 4ms
+Total computation time: 107ms.

@@ -1,0 +1,5 @@
+S49[n]=S49[(n+15)]:30 states - 19ms
+ S49[n]=S49[(n+35)]:43 states - 20ms
+  (S49[n]=S49[(n+15)]|S49[n]=S49[(n+35)]):1 states - 1ms
+   (A n (S49[n]=S49[(n+15)]|S49[n]=S49[(n+35)])):1 states - 0ms
+Total computation time: 42ms.

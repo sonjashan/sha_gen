@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 0ms
+  S65[(i+j)]=S65[((i+j)+n)]:1088 states - 411ms
+   (j<=(2*n)=>S65[(i+j)]=S65[((i+j)+n)]):3265 states - 60ms
+    (A j (j<=(2*n)=>S65[(i+j)]=S65[((i+j)+n)])):1 states - 5270ms
+     (n>0&(A j (j<=(2*n)=>S65[(i+j)]=S65[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S65[(i+j)]=S65[((i+j)+n)])))):1 states - 0ms
+Total computation time: 5744ms.

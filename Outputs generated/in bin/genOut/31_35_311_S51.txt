@@ -1,0 +1,4 @@
+morphism sha51 "0->10110100100101101000 1->10110100100101100100":
+image S51 sha51 T:
+eval pp31_35_checkS51 "An (S51[n]=S51[n+31]|S51[n]=S51[n+35])":
+eval cubeplusfree_S51 "Ei,n n>0 & Aj (j<=2*n) => S51[i+j] = S51[i+j+n]":

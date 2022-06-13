@@ -1,0 +1,5 @@
+S1[n]=S1[(n+12)]:20 states - 12ms
+ S1[n]=S1[(n+28)]:34 states - 7ms
+  (S1[n]=S1[(n+12)]|S1[n]=S1[(n+28)]):1 states - 2ms
+   (A n (S1[n]=S1[(n+12)]|S1[n]=S1[(n+28)])):1 states - 3ms
+Total computation time: 88ms.

@@ -1,0 +1,5 @@
+S8[n]=S8[(n+36)]:40 states - 27ms
+ S8[n]=S8[(n+37)]:40 states - 22ms
+  (S8[n]=S8[(n+36)]|S8[n]=S8[(n+37)]):1 states - 1ms
+   (A n (S8[n]=S8[(n+36)]|S8[n]=S8[(n+37)])):1 states - 5ms
+Total computation time: 123ms.

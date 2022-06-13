@@ -1,0 +1,4 @@
+morphism sha12 "0->1000110011000 1->1101110011001":
+image S12 sha12 T:
+eval pp3_9_checkS12 "An (S12[n]=S12[n+3]|S12[n]=S12[n+9])":
+eval cubeplusfree_S12 "Ei,n n>0 & Aj (j<=2*n) => S12[i+j] = S12[i+j+n]":

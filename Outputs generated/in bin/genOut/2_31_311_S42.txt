@@ -1,0 +1,4 @@
+morphism sha42 "0->10101101010010010100100 1->10101101101010010100100":
+image S42 sha42 T:
+eval pp2_31_checkS42 "An (S42[n]=S42[n+2]|S42[n]=S42[n+31])":
+eval cubeplusfree_S42 "Ei,n n>0 & Aj (j<=2*n) => S42[i+j] = S42[i+j+n]":

@@ -1,0 +1,8 @@
+n>0:2 states - 0ms
+ j<=(2*n):3 states - 1ms
+  S27[(i+j)]=S27[((i+j)+n)]:657 states - 168ms
+   (j<=(2*n)=>S27[(i+j)]=S27[((i+j)+n)]):1628 states - 62ms
+    (A j (j<=(2*n)=>S27[(i+j)]=S27[((i+j)+n)])):1 states - 3555ms
+     (n>0&(A j (j<=(2*n)=>S27[(i+j)]=S27[((i+j)+n)]))):1 states - 0ms
+      (E i , n (n>0&(A j (j<=(2*n)=>S27[(i+j)]=S27[((i+j)+n)])))):1 states - 1ms
+Total computation time: 3787ms.

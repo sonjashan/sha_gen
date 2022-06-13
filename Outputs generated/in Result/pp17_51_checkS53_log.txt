@@ -1,0 +1,5 @@
+S53[n]=S53[(n+17)]:56 states - 62ms
+ S53[n]=S53[(n+51)]:62 states - 43ms
+  (S53[n]=S53[(n+17)]|S53[n]=S53[(n+51)]):1 states - 2ms
+   (A n (S53[n]=S53[(n+17)]|S53[n]=S53[(n+51)])):1 states - 4ms
+Total computation time: 180ms.

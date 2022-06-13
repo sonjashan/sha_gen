@@ -1,0 +1,5 @@
+S61[n]=S61[(n+17)]:62 states - 43ms
+ S61[n]=S61[(n+44)]:72 states - 52ms
+  (S61[n]=S61[(n+17)]|S61[n]=S61[(n+44)]):1 states - 0ms
+   (A n (S61[n]=S61[(n+17)]|S61[n]=S61[(n+44)])):1 states - 1ms
+Total computation time: 98ms.

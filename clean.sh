@@ -11,3 +11,5 @@ rm -f ../Result/sha*.*
 rm -f ochem_gen_failed.txt
 rm -f og_gen
 rm -f pseudoCheckFailedRecord.txt
+rm ../Word\ Automata\ Library/S*.txt
+rm ../Morphism\ Library/sha*.txt

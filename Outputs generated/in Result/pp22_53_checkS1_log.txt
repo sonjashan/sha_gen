@@ -1,0 +1,5 @@
+S1[n]=S1[(n+22)]:28 states - 6ms
+ S1[n]=S1[(n+53)]:54 states - 7ms
+  (S1[n]=S1[(n+22)]|S1[n]=S1[(n+53)]):1 states - 1ms
+   (A n (S1[n]=S1[(n+22)]|S1[n]=S1[(n+53)])):1 states - 2ms
+Total computation time: 40ms.

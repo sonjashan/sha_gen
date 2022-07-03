@@ -1,0 +1,5 @@
+S0[n]=S0[(n+22)]:30 states - 8ms
+ S0[n]=S0[(n+52)]:48 states - 8ms
+  (S0[n]=S0[(n+22)]|S0[n]=S0[(n+52)]):1 states - 1ms
+   (A n (S0[n]=S0[(n+22)]|S0[n]=S0[(n+52)])):1 states - 1ms
+Total computation time: 43ms.

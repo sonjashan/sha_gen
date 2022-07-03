@@ -12,3 +12,4 @@ Place the sha_gen.sh and og_gen.c in the bin folder in Walnut then run sha_gen.s
 The file clean.sh is optional. It removes all the output generated from running sha_gen.sh.  
 
 The folder Outputs generated contains the output generated from running sha_gen.sh for about 10 days. 
+See result_table.txt in the result_table folder for a summary of the results. 

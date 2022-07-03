@@ -1,0 +1,5 @@
+S5[n]=S5[(n+22)]:30 states - 11ms
+ S5[n]=S5[(n+41)]:44 states - 11ms
+  (S5[n]=S5[(n+22)]|S5[n]=S5[(n+41)]):1 states - 1ms
+   (A n (S5[n]=S5[(n+22)]|S5[n]=S5[(n+41)])):1 states - 1ms
+Total computation time: 50ms.
